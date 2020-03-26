@@ -1,0 +1,11 @@
+<!--components/m-recommend/m-recommend.wxml-->
+<view class='box' bindtap="webView">
+	<view class='icon'>
+		<image class='icon-image' src="{{img}}" lazy-load></image>
+	</view>
+	<view class='inbox'>
+		<view>
+			<text class='page_title'>{{title}}</text>
+		</view>
+	</view>
+</view>

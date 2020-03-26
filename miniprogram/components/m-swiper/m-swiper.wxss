@@ -1,0 +1,8 @@
+.swiper {
+  margin-top: 10rpm;
+  box-shadow: 0rpx 6rpx 20rpx 2rpx gainsboro;
+}
+
+.swiper-item image {
+  width: 100%;
+}

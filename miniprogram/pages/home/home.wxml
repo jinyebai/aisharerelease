@@ -1,0 +1,13 @@
+<!--pages/home/home.wxml-->
+<view class='view'></view>
+<!-- 轮播图组件 -->
+<m-swiper id='swip' />
+<!-- hot字样 -->
+<view class='box'>
+	<text class='hot' space="ensp"> Hot! </text>
+</view>
+<!-- 推荐应用组件 -->
+<block wx:for='{{callTimes}}' wx:key='_id'>
+	<!-- 显示10条数据 -->
+	<m-recommend wx:if='{{index<10}}' img='{{img[index]}}' title='{{title[index]}}' webUrl='{{webUrl[index]}}' />
+</block>

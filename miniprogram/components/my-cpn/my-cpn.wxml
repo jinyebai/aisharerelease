@@ -1,0 +1,2 @@
+<!--components/my-cpn/my-cpn.wxml-->
+<button bind:tap="cpntap">+1</button>

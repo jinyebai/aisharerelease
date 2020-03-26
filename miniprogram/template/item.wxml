@@ -1,0 +1,4 @@
+<!--template/item.wxml.wxml-->
+<template name="item">
+<text>{{message}}</text>
+</template>

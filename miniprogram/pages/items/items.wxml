@@ -1,0 +1,23 @@
+<!-- pages/items/items.wxml-->
+<!-- icon图标和应用标题 -->
+<view class='box'>
+	<view class='icon'>
+		<image class='icon-image' src="{{icon}}"></image>
+	</view>
+	<view class='inbox'>
+		<view>
+			<text class='page_title'>{{page_title}}</text>
+		</view>
+	</view>
+</view>
+<!-- scroll-view -->
+<scroll-view class='scroll' scroll-x>
+	<block wx:for="{{pagesPhotos}}" wx:key='img'>
+		<image src="{{item}}" mode="aspectFit"></image>
+	</block>
+</scroll-view>
+<!-- 账号和密码按钮 -->
+<view class='btns'>
+	<button class='btn2' hover-class="btn2-hover" bind:tap='getAccount'>复制账号</button>
+	<button class='btn2' hover-class="btn2-hover" bind:tap='getPasswd'>复制密码</button>
+</view>

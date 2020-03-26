@@ -1,0 +1,8 @@
+<!--components/my-cpn/m-swiperr.wxml-->
+<swiper class='swiper' circular autoplay indicator-dots indicator-active-color>
+	<block wx:for='{{swiperUrl}}' wx:key='id'>
+		<swiper-item class='swiper-item' wx:if='{{item}}==""'>
+			<image src='{{item}}' mode=''></image>
+		</swiper-item>
+	</block>
+</swiper>

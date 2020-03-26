@@ -1,0 +1,2 @@
+<!--pages/search/search.wxml-->
+<m-search title='应用搜索' desc='公众号内获取ID进行搜索'/>

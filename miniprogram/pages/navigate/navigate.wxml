@@ -1,0 +1,2 @@
+<!--miniprogram/pages/navigate/navigate.wxml-->
+<web-view src='https://mp.weixin.qq.com/s?__biz=MzU3Njc2ODk0NQ==&mid=2247484067&idx=1&sn=92a5f21a04cf793df5db0b8b26c88b62&chksm=fd0f9c7dca78156b8ccef1fdd4cfe79194cb29c314073421331255621d1b1fd5b3f288cbcd58&token=376747290&lang=zh_CN#rd'></web-view>

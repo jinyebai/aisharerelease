@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-cpn":"/components/my-cpn/my-cpn",
+    "m-swiper":"/components/m-swiper/m-swiper",
+    "m-recommend":"/components/m-recommend/m-recommend"
+  }
+}

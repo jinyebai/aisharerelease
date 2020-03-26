@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/category/category",
+    "pages/search/search",
+    "pages/items/items",
+    "pages/searchErr/searchErr",
+    "pages/navigate/navigate",
+    "pages/webView/webView"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "爱分享",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "asset/个人中心1.png",
+        "selectedIconPath": "asset/个人中心.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "asset/分类1.png",
+        "selectedIconPath": "asset/分类.png"
+      }
+    ],
+    "selectedColor": "#96E8BA"
+  },
+  "resizable": true,
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

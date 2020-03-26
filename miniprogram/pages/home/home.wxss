@@ -1,0 +1,25 @@
+/* pages/home/home.wxss */
+.view{
+  margin-top: 18rpx;
+}
+.box{
+  color: blue;
+}
+.box2{
+  font-size: 70rpx;
+  background-color: chartreuse;
+}
+.box{
+  display: flex;
+  justify-content: start;
+}
+.hot{
+  margin: 20px 0 10px;
+  font-style: bold;
+  background-color: #ffb12a;
+  color: white;
+  margin-left: 16rpx;
+  font-size: 44rpx;
+  box-shadow:0px 3px 5px 1px #ffb12a99;
+  border-radius: 16rpx;
+}

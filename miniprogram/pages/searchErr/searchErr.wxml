@@ -1,0 +1,7 @@
+<!--pages/searchErr/searchErr.wxml-->
+<view class='q'>Errors!</view>
+<view class='block'>
+	<text class="h2">此ID没有对应的应用</text>
+	<view></view>
+	<text class="h2">请核对一下</text>
+</view>
